@@ -2,17 +2,56 @@
 <html>
 <head>
     <title>How it works</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #000000, #262626);
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            padding-top: 50px;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h3 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            color: #FF00FF;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 2px solid #FF00FF;
+            border-radius: 10px;
+            background-color: #333333;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+    </style>
 </head>
-<body bgcolor="Black" style= "color: blueviolet">
-    <h3>
+<body>
+    <div class="container">
+        <h3>How it works</h3>
         <ul>
-            <li>Upload Video: Upload your meeting video to our platform.</li>
             <li>Upload Video: Upload your meeting video to our platform.</li>
             <li>Transcribe: The audio file is then transcribed into a detailed document transcript.</li>
             <li>Review and Edit: Review and edit the transcript as needed for accuracy.</li>
             <li>Share and Collaborate: Share the finalized document transcript with team members and collaborate as needed.</li>
         </ul>
-    </h3>
-    
+    </div>
 </body>
 </html>

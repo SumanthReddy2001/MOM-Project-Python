@@ -2,9 +2,50 @@
 <html>
 <head>
     <title>How it works</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #000000, #262626);
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            padding-top: 50px;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h3 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            color: #FF00FF;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 2px solid #FF00FF;
+            border-radius: 10px;
+            background-color: #333333;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+    </style>
 </head>
-<body bgcolor="Black" style= "color: blueviolet">
-    <h3>
+<body>
+    <div class="container">
+        <h3>How it works</h3>
         <ul>
             <li>Efficiency: Save time and resources with our streamlined process for creating meeting minutes.</li>
             <li>Accuracy: Ensure accurate and detailed meeting documentation with our advanced technology.</li>
@@ -12,7 +53,6 @@
             <li>Security: Rest assured that your data is securely stored and accessible only to authorized users.</li>
             <li>Customization: Customize document transcripts to suit your organization's specific needs and preferences.</li>
         </ul>
-    </h3>
-    
+    </div>
 </body>
 </html>
